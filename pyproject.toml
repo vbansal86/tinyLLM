@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tinyllm"
+version = "0.0.1"
+description = "one percent version of chatgpt"
+authors = ["Vaibhav <vbansal.vbl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+torch = "^2.8.0"
+torchvision = "^0.23.0"
+transformers = "^4.55.2"
+datasets = "^4.0.0"
+tokenizers = "^0.21.4"
+wandb = "^0.21.1"
+matplotlib = "^3.10.5"
+streamlit = "^1.48.1"
+gradio = "^5.42.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
